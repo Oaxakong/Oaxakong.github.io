@@ -1,0 +1,84 @@
+:root {
+    --nord0: #2E3440;
+    --nord1: #3B4252;
+    --nord2: #434C5E;
+    --nord3: #4C566A;
+    --nord4: #D8DEE9;
+    --nord5: #E5E9F0;
+    --nord6: #ECEFF4;
+    --nord7: #8FBCBB;
+    --nord8: #88C0D0;
+    --nord9: #81A1C1;
+    --nord10: #5E91AC;
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
+    --font: BlinkMacsystemFont, -apple-system, "segoe UI", "Roboto", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neu", "Helvetica", "Arial", sans-serif;
+
+}
+
+/*
+* {outline: 1px solid red; }
+*/
+
+body {
+    font-family: var(--font);
+    margin: 0 auto;
+    
+}
+
+
+
+ header, section {
+    width: 960px;
+    margin: 0 auto;
+    
+    
+    
+ }
+ 
+ header{
+    display: flex;
+    
+    
+ }
+ ul {
+    color: #3B4252;
+    list-style-type: '🍌';
+ }
+
+ section{
+    display: flex;
+    
+ }
+
+ article{
+    width: 60%;
+    
+ }
+
+ img{
+    width: 200px;
+    height: 200px;
+    margin-right: 16px;
+ }
+
+ a, a:link, a:visited {
+   text-decoration: none;
+   color: #5E91AC;
+ }
+ 
+
+ body{
+   background-image: url(https://image.jimcdn.com/app/cms/image/transf/none/path/sc77e1e58a42c514a/image/i9977c7b3a6db203a/version/1516578954/image.jpg);
+ }
+
+ nav ul li{
+   float: left;
+   list-style: none;
+   margin-left: 30px;
+   margin-bottom: 70px;
+
+}
